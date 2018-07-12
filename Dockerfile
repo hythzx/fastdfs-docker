@@ -80,7 +80,7 @@ RUN echo "pull fastdfs config " \
         && git clone $FASTDFS_NGINX_GIT	$NGINX_PATH/modules/fastdfs \
 	&& cp fastdfs_git/fastdfs-nginx-module/* $NGINX_PATH/modules/fastdfs/src \
 	&& mkdir -p $NGINX_PATH/conf \
-	&& mkdir -p /storage/nginx/picture \
+	&& mkdir -p /storage/nginx/agile \
 	&& cp fastdfs_git/nginx_conf/* $NGINX_PATH/conf \
  	&& rm -rf fastdfs_git
 
